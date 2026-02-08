@@ -1,0 +1,22 @@
+/* Import the font from Google */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Apply it to the whole body */
+
+/* body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "space grotesk", sans-serif;
+} */
+
+body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "playfair display", serif;
+}
+
+/* body, p, h1, h2, h3, h4, h5, h6 {
+    font-family: "crimson text", serif;
+} */
+/* Optional: Make the sidebar font different */
+aside {
+    font-family: "lobster", sans-serif;
+}
